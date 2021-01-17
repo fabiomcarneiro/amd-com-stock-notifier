@@ -1,0 +1,36 @@
+{
+  "name": "amd-com-stock-notifier",
+  "version": "1.0.0",
+  "description": "AMD Stock Notifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "start": "ts-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiomcarneiro/amd-com-stock-notifier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiomcarneiro/amd-com-stock-notifier/issues"
+  },
+  "homepage": "https://github.com/fabiomcarneiro/amd-com-stock-notifier#readme",
+  "dependencies": {
+    "chromedriver": "^87.0.4",
+    "node-fetch": "^2.6.1",
+    "node-notifier": "^9.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/chromedriver": "^81.0.0",
+    "@types/node-fetch": "^2.5.7",
+    "@types/node-notifier": "^8.0.0",
+    "@types/selenium-webdriver": "^4.0.10",
+    "prettier": "^2.2.1"
+  }
+}
